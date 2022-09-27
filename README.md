@@ -22,6 +22,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Twitter: [@twitterhandle](https://twitter.com/ElarabFouad)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/karam-fouad-179830214/)
 
+👤 **Yousef Hesham**
+- GitHub: [@githubhandle](https://github.com/yosefHesham)
+- Twitter: [@twitterhandle](https://twitter.com/Yousef45653478)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yousef-hesham-b132ba179/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

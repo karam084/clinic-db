@@ -67,10 +67,9 @@ CREATE INDEX invoice_id_asc ON invoice_items(invoice_id ASC);
 
 CREATE INDEX treatment_id_asc ON invoice_items(treatment_id ASC);
 
-CREATE TABLE medical_histories_treatment(
-  treatment_id INT,
-  CONSTRAINT treatment_id FOREIGN KEY (treatment_id) REFERENCES treatments(id),
-  medical_history_id INT,
-  CONSTRAINT medical_history_id FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id),
-  PRIMARY KEY (treatment_id, medical_history_id)
+CREATE TABLE treatments_medical_history (
+    treatments_id INT NOT NULL REFERENCES treatments(id),
+    medical_histories_id INT NOT NULL REFERENCES medical_histories(id)
 );
+CREATE INDEX ON treatments_medical_history (treatments_id);
+CREATE INDEX ON treatments_medical_history (medical_histories_id);

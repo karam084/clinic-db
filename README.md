@@ -13,7 +13,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## Schema Diagram
 
-![Schema](schema.drawio.svg)
+![Schema](./clinic_diagram.png)
 
 ## Authors
 
